@@ -18,7 +18,7 @@ library("data.table")
 library(ggplot2)
 ```
 ##### Unzip the file in the current working directory
-```{r}˜
+```{r}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
 download.file(fileUrl, destfile = paste0(getwd(), '/repdata%2Fdata%2Factivity.zip'), method = "curl")
 unzip("repdata%2Fdata%2Factivity.zip",exdir = "Activity_Monitoring_Data")
